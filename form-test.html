@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="">
+
+    <h2>personal info</h2>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome"><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <h2>gender</h2>
+    <input type="radio" id="masculino" name="genero" value="masculino">
+    <label for="masculino">Masculino</label><br>
+    <input type="radio" id="feminino" name="genero" value="feminino">
+    <label for="feminino">Feminino</label><br>
+    <input type="radio" id="neutre" name="genero" value="neutre">
+    <label for="neutre">Neutre</label><br><br>
+
+    <h2>how you feel?</h2>
+    <input id="1" type="checkbox" name="1" value="sad">sad<br>
+    <input id="2" type="checkbox" name="2" value="happy">happy<br>
+    <input id="3" type="checkbox" name="3" value="moreless">moreless<br><br>
+
+    <h2>Chosen one color</h2>
+    <select name="colors">
+        <option selected disabled value="">Select a color</option>
+        <option value="red">red</option>
+        <option value="blue">blue</option>
+        <option value="yellow">yellow</option>
+        <option value="grey">grey</option>
+    </select><br><br>
+    
+    <h2>leave hear your message*</h2>
+    <textarea required name="message" cols="50" rows="10" placeholder="text hear"></textarea><br><br>
+
+    <input type="submit" value="Send">
+</form><br>
+    <button>just a button</button><br><br>
+    <a href="index.html">Voltar para pagina principal</a>
+</body>
+</html>
